@@ -1,0 +1,12 @@
+2025-02-28 18:21:58,879 - ERROR - an exception is occured:
+Traceback (most recent call last):
+  File "c:\Users\sai\Desktop\pythonprograms\exc.py", line 284, in compare_files
+    with open(file1,"r") as f1, open(file2,"r") as f2:
+                                ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'file22.txt'
+2025-02-28 18:23:03,798 - ERROR - an exception is occured:
+Traceback (most recent call last):
+  File "c:\Users\sai\Desktop\pythonprograms\exc.py", line 284, in compare_files
+    with open(file1,"r") as f1, open(file2,"r") as f2:
+                                ~~~~^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'file22.txt'

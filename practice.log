@@ -1,0 +1,10 @@
+[2025-02-28 18:02:08,897] DEBUG    my_logger    Harmless debug message
+[2025-02-28 18:02:08,897] INFO     my_logger    just an information
+[2025-02-28 18:02:08,897] WARNING  my_logger    Its warning
+[2025-02-28 18:02:08,897] ERROR    my_logger    Did you try to divide by zero
+[2025-02-28 18:02:08,897] CRITICAL my_logger    internet is down
+[2025-02-28 18:06:30,301] DEBUG    my_logger    Harmless debug message
+[2025-02-28 18:06:30,301] INFO     my_logger    just an information
+[2025-02-28 18:06:30,301] WARNING  my_logger    Its warning
+[2025-02-28 18:06:30,301] ERROR    my_logger    Did you try to divide by zero
+[2025-02-28 18:06:30,301] CRITICAL my_logger    internet is down

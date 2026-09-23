@@ -1,0 +1,43 @@
+
+
+javascript asynchronous:
+
+if some instruction required more time  to perform to execution in that case js skip that istruction and go for next instruction. and when output output of that time consuming instruction is ready ,js collect yhat output. due to this asynchronous nature logical problem occurs.and solution for this problem are promise.
+
+what is promise:
+promise is a javascript object which hold the result of asynchronous(time consuming) operation.
+there are 3 status for the promise
+1.pending- the result is not available up to this point.
+2.resolve- Asynchronous operation complted successfully.
+3.reject= Asynchronous operation is fail..
+
+
+
+why we need to usw promise?
+ while performing database operatiions most of time we need to use promise.
+syntax:
+let promise=new Promise((resolve,reject)=>
+{
+if(success)
+{
+resolve("success");
+}
+else
+{
+reject("error);
+}
+
+});
+
+
+
+consuming a promise:
+
+promise
+.then((result)=>
+{//if resolved
+})
+.catch((error)=>
+{
+// if rejected)
+});

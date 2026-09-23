@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // map() is used to visit every elemnt from array..
+        var marks=[45,56,78,90,78]
+        marks.map((m)=>document.write("<br>"+m));
+
+
+        var arr=[1,2,3,4,5,6,7,8,9];
+        function square(no)
+        {
+            return no*no;
+        }
+        var result=arr.map((i)=>square(i));
+         document.write(result);
+        for(var i of result)
+        {
+            document.write("<br>"+i);
+        }
+        </script>
+
+
+
+
+</body>
+</html>

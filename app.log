@@ -1,0 +1,18 @@
+2025-02-28 17:37:58,832 - ERROR - An exception occured
+Traceback (most recent call last):
+  File "c:\Users\sai\Desktop\pythonprograms\exc.py", line 259, in <module>
+    risky_function()
+    ~~~~~~~~~~~~~~^^
+  File "c:\Users\sai\Desktop\pythonprograms\exc.py", line 257, in risky_function
+    return 10/0
+           ~~^~
+ZeroDivisionError: division by zero
+2025-02-28 17:42:19,104 - ERROR - An exception occured
+Traceback (most recent call last):
+  File "c:\Users\sai\Desktop\pythonprograms\exc.py", line 259, in <module>
+    risky_function()
+    ~~~~~~~~~~~~~~^^
+  File "c:\Users\sai\Desktop\pythonprograms\exc.py", line 257, in risky_function
+    return 10/0
+           ~~^~
+ZeroDivisionError: division by zero

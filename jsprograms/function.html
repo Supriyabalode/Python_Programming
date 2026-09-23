@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function add()
+        {
+            var a=10;
+            var b=20;
+            document.write("addition is:"+(a+b));
+        }
+        function sub(x,y)
+        {
+            document.write("<br>substraction is "+(x-y));
+        }
+        function mult(x,y)
+        {
+            return x*y;
+        }
+        var demo=function (x)
+        {
+            alert("this ia anonymous function value of x is "+x);
+        }
+        var demo1=function(x)
+        {
+            if(x%2==0)
+        {
+            document.write("<br>number is even");
+        }
+        else
+        {
+            document.write("<br>Number is odd");
+        }
+        }
+        add()
+        sub(10,5)
+        var b=mult(10,2);
+        document.write("<br>result of multiplication is: "+b);
+        demo(2);
+        demo1(10);
+        </script>
+</body>
+</html>
